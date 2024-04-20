@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sashaktfrontend/static/css/main.7243e4f6.css",
+    "main.js": "/sashaktfrontend/static/js/main.d0383b8a.js",
+    "static/js/787.8cf52469.chunk.js": "/sashaktfrontend/static/js/787.8cf52469.chunk.js",
+    "static/media/candy_crush.jpg": "/sashaktfrontend/static/media/candy_crush.523301c194136373b4b4.jpg",
+    "static/media/flogo.jpg": "/sashaktfrontend/static/media/flogo.551773d330fdb7fe55f7.jpg",
+    "static/media/blank.png": "/sashaktfrontend/static/media/blank.dd28f7e912a007ff80e6.png",
+    "static/media/downloadsh.png": "/sashaktfrontend/static/media/downloadsh.a010a8f4d04d56fcf954.png",
+    "static/media/downloads.png": "/sashaktfrontend/static/media/downloads.9e2ca7ed56941a970480.png",
+    "index.html": "/sashaktfrontend/index.html",
+    "main.7243e4f6.css.map": "/sashaktfrontend/static/css/main.7243e4f6.css.map",
+    "main.d0383b8a.js.map": "/sashaktfrontend/static/js/main.d0383b8a.js.map",
+    "787.8cf52469.chunk.js.map": "/sashaktfrontend/static/js/787.8cf52469.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7243e4f6.css",
+    "static/js/main.d0383b8a.js"
+  ]
+}
