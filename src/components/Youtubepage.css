@@ -1,0 +1,121 @@
+/*  Youtubepage.css */
+.card33 {
+  position: relative;
+  perspective: 1000px; 
+  background-color:rgb(231, 230, 182);
+  border-radius: 20%;
+}
+
+.card33:hover {
+  transform: rotateY(6deg); 
+  transition: transform 0.5s ease; 
+}
+
+.card-body33 {
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 40%;
+}
+.card33:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+
+.ytbackground-image {
+    background-color: #716741;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+/* YouTubeVideo.css */
+.fullscreen-video {
+  background-color: rgb(24, 14, 28);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube-container {
+  width: 100%;
+  height: 100vh;
+}
+@media (max-width: 768px) {
+  .fullscreen-video {
+      height: auto;
+  }
+
+  .youtube-container {
+      height: auto;
+  }
+}
+
+
+.playbackgroundimage {
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .container33 {
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content:center;
+  }
+  
+  .col-lg-5 {
+    flex: 0 0 40%; 
+    max-width: 45%; 
+    margin-bottom: 10px; 
+  }
+  
+  .pl-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5%;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease-in-out;
+    height: 100%; 
+    background-color:lightcoral;
+    max-width: 90%;
+      margin: 0 auto;
+  }
+  
+  .pl-card:hover {
+    transform: scale(1.05);
+  }
+
+  .image-card {
+    width: 55%;
+    height: 50%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  

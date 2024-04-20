@@ -1,0 +1,258 @@
+.tag { 
+	text-align: center; 
+	color: green; 
+	margin: 2rem; 
+} 
+
+/* for the jigsaw puzzle container */
+.jigsaw-puzzle { 
+	width: 820px;  
+	border: 2px solid black; 
+	margin: auto; 
+	box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.25); 
+}
+
+.jigsaw-puzzle.blurred {
+	filter: blur(5px); /* Adjust the amount of blur as needed */
+  }
+.difficulty-options {
+    text-align: center;
+  }
+  
+.difficulty-options button {
+    margin: 10px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+.difficulty-options button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+.puzzle-container {
+	display: flex;
+	justify-content: space-between; /* Adjust alignment as needed */
+  }
+  
+  .left-box {
+	width: 20%; /* Adjust width as needed */
+	/* Add any additional styling for the left box */
+  }
+  
+  .right-box {
+	width: 305%; /* Adjust width as needed */
+	/* Add any additional styling for the right box */
+  }
+
+  
+  .side-image {
+    margin-top: 150px; /* Adjust the margin-top value to move the image down */
+    max-width: 500px;
+    max-height: 500px;
+  }
+/* puzzle.css */
+
+/* Define the blurred effect */
+.score-box {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: #ffffff;
+	padding: 5px 10px;
+	border: 3px solid #ccc;
+  }
+
+  .score-popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 20px;
+	border: 3px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	z-index: 9999; /* Ensure it's on top of other elements */
+  }
+
+  .quiz-section {
+	border: 2px solid #ccc;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #ffdead;
+	width: 700px;
+	height: 950px;
+	margin: 0 auto;
+	/* Add other styling properties as needed */
+  }
+  
+  .quiz-section h3 {
+	margin-bottom: 10px;
+	/* Additional styles for the quiz section title */
+  }
+
+.question-container {
+  font-size: 25px; /* Adjust the font size for the questions */
+  margin-bottom: 15px; /* Add some spacing between questions */
+}
+
+.options-container button {
+  font-size: 16px; /* Adjust the font size for the options */
+  margin-bottom: 10px; /* Add some spacing between options */
+  display: block; /* Set the display to block to stack options vertically */
+  width: 100%; /* Ensure buttons take the full width */
+  text-align: left; 
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+
+.options-container button:hover{
+	background-color: black;
+	color: white;
+	transition: .5s;
+	cursor: pointer;
+  }
+
+/* Adjust styles based on your design requirements */
+.popup-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(5px);
+  }
+  
+  .popup-box {
+	background-color: rgb(250, 250, 250);
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	text-align: center;
+  }
+  
+  .popup-box h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .line {
+	width: 80%;
+	height: 2px;
+	background-color: #ccc;
+	margin: 20px auto;
+  }
+  
+  .popup-buttons {
+	display: flex;
+	justify-content: space-around;
+  }
+  
+  .try-again-btn,
+  .next-btn {
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .try-again-btn {
+	background-color: #FF6347; /* Adjust button colors as needed */
+	color: white;
+  }
+  
+  .next-btn {
+	background-color: #4682B4; /* Adjust button colors as needed */
+	color: white;
+  }
+  
+  /* Adjust styles based on your design requirements */
+  .score-popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #222; /* Updated background color */
+	padding: 40px; /* Increased padding for more space */
+	border: 6px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	z-index: 9999;
+  }
+
+.score-popup h2{
+	text-shadow: -3px -3px 0 #ff8c00,  
+                3px -3px 0 #ff8c00,
+               -3px 3px 0 #ff8c00,
+                3px 3px 0 #ff8c00;
+}
+.timer-box {
+    position: absolute;
+    top: -10px; /* Move the timer up slightly */
+    left: 10px;
+  }
+  
+  .timer-inner-box {
+    background-color: #ff8c00;
+  padding: 10px;
+  border: 2px solid #fffefe;
+  border-radius: 10px;
+  text-align: center;
+  color: white; 
+  font-size: 18px; 
+  font-family: 'Comic Sans MS', cursive, sans-serif; 
+  box-shadow: 0 0 10px rgba(255, 140, 0, 0.5);
+  width: 150px;
+  height: 60px; 
+  margin: 0 auto; 
+
+}
+@media only screen and (max-width: 768px) {
+    .jigsaw-puzzle {
+      width: 100%;
+    }
+  
+    .difficulty-options button {
+      font-size: 14px;
+    }
+  
+    .side-image {
+      margin-top: 50px;
+    }
+  
+    .quiz-section {
+      width: 90%;
+      height: auto;
+    }
+  
+    .question-container {
+      font-size: 20px;
+    }
+  
+    .options-container button {
+      font-size: 14px;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+  
+    .timer-inner-box {
+      width: 120px;
+      height: 30px;
+      font-size: 16px;
+    }
+  }

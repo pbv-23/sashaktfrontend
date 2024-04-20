@@ -1,0 +1,230 @@
+/* Container Styles */
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-color: #FFC5C5; 
+}
+.vq1 {
+    color: #ff4500; 
+    font-weight: 900;
+    font-size: 32px; 
+}
+.word-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px; 
+    height: 80px; 
+    margin: 0 10px; 
+    border-radius: 50%;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+  .guess-section { 
+    margin-bottom: 30px; 
+    } 
+    
+  .restart-button1, 
+  .remove-button1{ 
+    padding: 12px 20px; 
+    margin-right: 10px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #fff; 
+    background-color: #4caf50; /* Use a green color for buttons */
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5); 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease-in-out; 
+    } 
+    
+  .remove-button1:disabled { 
+    background-color: #ccc; 
+    cursor: not-allowed; 
+    } 
+    
+  .restart-button1:hover, 
+  .remove-button1:hover { 
+    background-color: #388e3c; 
+    } 
+    
+  .restart-button1:focus, 
+  .remove-button1:focus { 
+    outline: none; 
+    } 
+    
+.letter-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    }
+  .letter-button1 { 
+    padding: 15px 25px; 
+    margin: 10px; 
+    font-size: 20 px; 
+    font-weight: bold; 
+    color: #fff; 
+    background-color: #2146bf;
+    border:#333;
+    cursor: pointer; 
+    transition: background-color 0.2s ease-in-out; 
+    border-radius:15% ;
+    
+    } 
+    
+  .letter-button1.selected { 
+    background-color: #635e61;
+    } 
+    
+  .letter-button1:disabled { 
+    background-color: rgb(204, 204, 204)ccc; 
+    cursor: not-allowed; 
+    } 
+    
+  .hints { 
+    margin-bottom: 20px; 
+    font-size: 20px; 
+    font-weight: bold; 
+    text-align: center;
+    color: #9c27b0;
+    } 
+    
+  .hint-button1 { 
+    padding: 12px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease-in-out; 
+    background-color: #97bcc1;
+    } 
+    
+  .hint-button1:disabled { 
+    background-color: #ccc; 
+    cursor: not-allowed; 
+    } 
+    
+  .hint-button1:hover { 
+    background-color: #00838f;
+    } 
+    
+  .hint-button1:focus { 
+    outline: none; 
+    } 
+    
+  .message { 
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #1fc762; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    } 
+    
+  .guess-button1 { 
+    padding: 12px 30px; 
+    margin-top: 20px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #fff; 
+    background-color: #e91e63;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease-in-out; 
+    align-items: center;
+    } 
+    
+  .guess-button1:disabled { 
+    background-color: #ccc; 
+    cursor: not-allowed; 
+    } 
+    
+  .guess-button1:hover { 
+    background-color: #951246;
+    } 
+    
+  .guess-button1:focus { 
+    outline: none; 
+    } 
+  .word-description { 
+    font-size: 35px; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 45px;
+    color: #823905;
+    margin-bottom: 20px; 
+    }
+  .green-text {
+    font-size: 30px;
+    color: #4caf50;
+  }
+  
+  .blue-text {
+    color: #2196f3;
+    font-size: 30px;
+  }
+  .score-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d8e3ea;
+    padding: 20px;
+    border: 5px solid #080707;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 999;
+    width: 45%; 
+    max-width: 400px; 
+    height: auto;
+  }
+  
+  .score-card p {
+    font-size: 30px;
+    margin-bottom: 15px;
+    
+  }
+  
+  .score-card button {
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    display:flow-root;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+  
+  .score-card button:hover {
+    background-color: #3a613c;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .score-card {
+        width: 90%; 
+        max-width: none; 
+    }
+}

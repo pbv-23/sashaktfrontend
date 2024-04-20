@@ -1,0 +1,60 @@
+/* MazeGameEndPopup.css */
+
+/* Styles to position the popup in the middle and apply a blur effect to the background */
+.popup10 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222;
+    /* Updated background color */
+    padding: 20px;
+    /* Increased padding for more space */
+    border: 6px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.popup10-content {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.popup10-content h2 {
+    color: #fff;
+    font-size: 50px;
+    text-shadow: -3px -3px 0 #ff8c00,
+        3px -3px 0 #ff8c00,
+        -3px 3px 0 #ff8c00,
+        3px 3px 0 #ff8c00;
+}
+
+.popup10-content p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.try10-again-btn,
+.next10-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.try10-again-btn {
+    background-color: #FF6347;
+    /* Adjust button colors as needed */
+    color: white;
+    margin-right: 100px;
+}
+
+.next10-btn {
+    background-color: #4682B4;
+    /* Adjust button colors as needed */
+    color:white;
+}

@@ -1,0 +1,60 @@
+.dandd-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.dandd-image {
+    width: 100%;
+    max-height: 720px; /* Set your desired max height */
+    height: auto;
+    max-width: 100%;
+    background-attachment: fixed;
+}
+
+.cute-button {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cute-button:hover {
+    background-color: #fdbcd8; /* Change the color on hover */
+}
+
+/* Updated CSS in DandD.css */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #394144;
+}
+
+.colorful-card {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+.custom-header333 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.custom-para333 {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
